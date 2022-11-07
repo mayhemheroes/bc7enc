@@ -1,0 +1,6 @@
+project: bc7enc
+target: bc7enc-fuzz
+
+cmds:
+    - cmd: ./bc7enc-fuzz
+      libfuzzer: true
